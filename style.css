@@ -1,0 +1,230 @@
+html{
+    background-color: #FFF1FA;
+}
+body{
+    background-color: #FFF1FA;
+    margin: auto;
+}
+
+div.image_holder{
+    background-color: #f1f1f3;
+    width: 9.37em;
+    height: 9.37em;
+    border-radius: 5em;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.profile_buttons{
+    background-color: #FFF1FA;
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: auto;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .profile_buttons  {  
+      flex-direction: column;
+    }
+  }
+
+#btnLinkedIn{
+    background-color: rgb(0, 119, 181);
+    width: 10em;
+    height: 3em;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-weight: bold;
+}
+#btnYoutube{
+    background-color: rgb(255, 0, 0);
+    width: 10em;
+    height: 3em;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#btnGithub{
+    background-color: rgb(0, 0, 0);
+    width: 10em;
+    height: 3em;
+    border: none;
+    color: white;
+    border-radius: 2em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-weight: bold;
+}
+#btnGithub:hover{
+    background-color: #efeeee;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+#btnLinkedIn:hover{
+    background-color: #efeeee;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+#btnYoutube:hover{
+    background-color: #efeeee;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
+img.img_profile{
+    width: 6.250em;
+    height: 6.250em;
+    margin-top: 1.250em;
+}
+
+article {
+    padding: 0.625em;
+    margin: 0.625em;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 1.250em;
+    text-align: left;
+    height: 21.875em;
+}
+article:hover{
+    background-color: #efeeee;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
+section{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+    .section {
+      flex-direction: column;
+    }
+  }
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF1FA;
+}
+
+
+div.education_container{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4.375em;
+    text-align: center;
+    color: rgb(159, 165, 169);
+}
+div.education_image{
+    float: right;
+    margin-right: 13.750em;
+    margin-top: 0.625em;
+}
+div.education_text{
+    float: left;
+    text-align: center;
+    margin-left: 1.250em;
+}
+
+div.skills_container{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4.375em;
+    text-align: center;
+    color: rgb(0, 179, 240);
+}
+div.skills_image{
+    float: right;
+    margin-right: 16.875em;
+    margin-top: 0.875em;
+}
+div.skills_text{
+    float: left;
+    text-align: center;
+    margin-left: 1.250em;
+}
+
+div.projects_container{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4.375em;
+    text-align: center;
+    color: rgb(0, 179, 240);
+}
+div.projects_image{
+    float: right;
+    margin-right: 15em;
+    margin-top: 0.625em;
+}
+div.projects_text{
+    float: left;
+    text-align: center;
+    margin-left: 1.250em;
+}
+div.lstProjects{
+    width: 25em;
+}
+div.lstSkills{
+    width: 25em;
+}
+div.lstEducation{
+    width: 25em;
+}
+
+div.profile_name{
+    width: auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.navbarFlex {  
+    background-color: rgb(85, 85, 85);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbarFlex a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbarFlex a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: rgb(56, 126, 255);
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbarFlex  {  
+      flex-direction: column;
+    }
+  }
